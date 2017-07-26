@@ -1,3 +1,7 @@
+<?php require 'include/header.php';?>
+
+<?php require 'include/sidebar.php';?>
+
 <!doctype html>
 <HTML>
 
@@ -11,7 +15,6 @@
 
  <body>
 
-    <?php include './header.php';?>
 
     <!-- Start of content wrap -->
     <div class="wrap">
@@ -39,12 +42,6 @@
           <div class="col-md-5">
 
 
-<?php include './sidebar.php';?>
-
-
-
-<?php include './footer.php';?>
-
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
@@ -54,3 +51,5 @@
   </body>
 
 </HTML>
+
+<?php require 'footer.php';?>

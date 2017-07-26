@@ -1,3 +1,7 @@
+<?php require 'include/header.php';?>
+
+<?php require 'include/sidebar.php';?>
+
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +16,6 @@
 
 <body>
 
-<?php include './header.php';?>
 
 
     <div class="wrap">
@@ -44,12 +47,6 @@
     </div>
 
 
-<?php include './sidebar.php';?>
-
-
-
-<?php include './footer.php';?>
-
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -58,3 +55,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </html>
+
+<?php require 'footer.php';?>
