@@ -3,9 +3,9 @@
                 <h1 class="connect-with-me-header">Connect With Me</h1>
                 <hr />
                 <div id="images">
-                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
+                  <a href="https://github.com/rhegipatricio"><img src="images/github-128.png" alt="" class="connect-with-me-photo">
+                  <a href="https://www.linkedin.com/in/rheginaldpatricio/"><img src="images/linkedin-128.png" alt="" class="connect-with-me-photo">
+                  <a href="https://www.stackoverflow.com"><img src="images/stackoverflow-128.png" alt="" class="connect-with-me-photo">
                 </div>
               </div>
             </section>
