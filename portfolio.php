@@ -10,82 +10,40 @@
 </head>
 
  <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Your Name</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.php">Contact</a></li>
-              <li><a href="portfolio.php">Portfolio</a></li>
-              <li><a href="index.php">About</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+    <?php require 'include/header.php';?>
 
     <!-- Start of content wrap -->
     <div class="wrap">
       <div class="container">
-        <section class="row">
-          <div class="col-md-7">
-            <section id="portfolio-area">
-              <h1 class="port-header">Portfolio</h1>
-              <hr class="port-hr"/>
-              <img class="port-imgs" src="http://lorempixel.com/223/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-            </section>
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <div class="bg-primary text-white">Hangman
+              <a href="#" class="thumbnail"><img src="images/technics-q-c-640-480-1.jpg" height=200 width=250></a>
+            </div>
+            <div class="bg-primary text-white">RPG Game
+              <a href="#" class="thumbnail"><img src="images/technics-q-c-640-480-2.jpg" height=200 width=250></a>
+            </div>
+            <div class="bg-primary text-white">Trivia Game
+              <a href="#" class="thumbnail"><img src="images/technics-q-c-640-480-5.jpg" height=200 width=250></a>
+            </div>
+            <div class="bg-primary text-white">Rutgers Info Widget
+              <a href="#" class="thumbnail"><img src="images/technics-q-c-640-480-7.jpg" height=200 width=250></a>
+            </div>
+            <div class="bg-primary text-white">Rock Paper Scissors
+              <a href="#" class="thumbnail"><img src="images/technics-q-c-640-480-9.jpg" height=200 width=250></a>
+            </div>
           </div>
+        </div>
+      </div>
           <div class="col-md-5">
 
-            <!-- Start of Connect With Me Area -->
-            <section id="connect-with-me-area">
-              <div class="connect-with-me-content">
-                <h1 class="connect-with-me-header">Connect With Me</h1>
-                <hr />
-                <div id="images">
-                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
-                </div>
-              </div>
-            </section>
 
-            <!-- End of the Connect With Me Area -->
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- End of content wrap -->
+<?php require '/include/sidebar.php';?>
 
-    <!-- Start of footer -->
-    <footer class="footer">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright Rutgers Coding Bootcamp 2016
-      </p>
-    </footer>
-    <!-- End of footer -->
+
+
+<?php require '/include/footer.php';?>
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
