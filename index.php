@@ -11,7 +11,7 @@
 
 <body>
 
-<?php require './header.php' ?>
+<?php include './header.php';?>
 
     <div class="wrap">
       <div class="container">
@@ -31,11 +31,11 @@
         </section>
       </div>
     </div>
-<?php require './sidebar.php' ?>
+<?php include './sidebar.php';?>
 
 
 
-<?php require './footer.php' ?>
+<?php include './footer.php';?>
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

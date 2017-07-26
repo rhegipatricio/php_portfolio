@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-us">
+<HTML>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
  <body>
 
-    <?php require './header.php' ?>
+    <?php include './header.php';?>
 
     <!-- Start of content wrap -->
     <div class="wrap">
@@ -39,11 +39,11 @@
           <div class="col-md-5">
 
 
-<?php require './sidebar.php' ?>
+<?php include './sidebar.php';?>
 
 
 
-<?php require './footer.php' ?>
+<?php include './footer.php';?>
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -53,4 +53,4 @@
 
   </body>
 
-</html>
+</HTML>

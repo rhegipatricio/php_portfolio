@@ -12,7 +12,7 @@
 
 <body>
 
-<?php require '.header.php' ?>
+<?php include './header.php';?>
 
 
     <div class="wrap">
@@ -44,11 +44,11 @@
     </div>
 
 
-<?php require './sidebar.php' ?>
+<?php include './sidebar.php';?>
 
 
 
-<?php require './footer.php' ?>
+<?php include './footer.php';?>
 
 
     <!-- jQuery CDN -->
