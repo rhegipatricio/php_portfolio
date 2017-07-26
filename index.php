@@ -20,7 +20,7 @@
             <article class="about-me-content">
               <h1 class="about-me-header">About Me</h1>
               <hr class="about-me-hr"/>
-              <img src="assets/imgs/natebeach.jpeg" alt="" id="nate-image"/>
+              <img src="images/rhegi.jpg" height=200 width=185>
               <p>Greetings, salutations, and welcome. This is Rheginald Patricio, future full stack web developer. I am currently in the process of learning and if you're reading this, then you are probably a part of my journey. For that, I thank you because this process of becoming a full stack developer seems very challenging. However, life is full of challenges</p>
               <br>
               <p>My life journey starts on September 13, 1982 in Camp Lejune, North Carolina. From there, my family and I migraged to Florida. I was raised in Oviedo, FL.</p>
