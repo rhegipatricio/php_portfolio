@@ -4,14 +4,14 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <title>Portfolio | Rheginald Patricio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>About | Rheginald Patricio</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
  <body>
 
-    <?php require 'include/header.php';?>
+    <?php require './header.php' ?>
 
     <!-- Start of content wrap -->
     <div class="wrap">
@@ -39,11 +39,11 @@
           <div class="col-md-5">
 
 
-<?php require '/include/sidebar.php';?>
+<?php require './sidebar.php' ?>
 
 
 
-<?php require '/include/footer.php';?>
+<?php require './footer.php' ?>
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
